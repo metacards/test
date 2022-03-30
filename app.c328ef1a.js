@@ -23198,7 +23198,7 @@ var WebGLCarousel = /*#__PURE__*/function () {
     _classCallCheck(this, WebGLCarousel);
 
     this.wrapper = document.querySelector('[data-canvas-wrapper]');
-    this.texturesURLs = ['/images/1.jpg', '/images/2.jpg', '/images/3.jpg', '/images/4.jpg'];
+    this.texturesURLs = ['./images/1.jpg', './images/2.jpg', './images/3.jpg', './images/4.jpg'];
     this.state = {
       isAnimating: false,
       currentTextureIndex: 0,
